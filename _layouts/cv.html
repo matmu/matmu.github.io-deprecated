@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include _head.html %}
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+   }
+  .bottom-small {
+     margin-bottom: 1cm;
+   }
+</style>
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http://' %}
+      "{{ page.image.feature }}"
+    {% elsif page.image.feature contains 'https://' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+<div id="main" role="main">
+  <div class="article-author-side">
+    {% include _author-bio.html %}
+  </div>
+  <article>
+    <h1>{{ page.title }}</h1>
+    <div class="article-wrap">
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/business.png" alt="Work Experience" width="70" height="70"></p>
+    <p align="left">&#8226 I'm currently working as <strong>Bioinformatics Scientist</strong> (Postdoc) at the group for Medical Systems Biology, University of Lübeck and also collaborate with Prof. Jeanette Erdmann, director of the Institute for Cardiogenetics at the same university.
+
+    <p align="left">&#8226 I worked as Bioinformatician at the Institute of Pathology and Berlin Institute of Health, Charité, Berlin. </p>
+    <p align="left">&#8226 I did an internship, at Boehringer Ingelheim GmbH und Co. KG, Target Discovery Research, Biberach.</p>
+
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/study2.png" alt="Education" width="70" height="70"></p>
+    <p align="left">&#8226 I earned my <strong>PhD</strong> in Bioinformatics from the Free University of Berlin.</p>
+    <p align="left">&#8226 I received a master degree in  <strong> Business Informatics</strong>  from Technische Universität Braunschweig a bachelor degree in <strong>Bioinformatics</strong> from  Eberhard-Karls-Universität Tübingen.</p>
+    
+    <p align="center" class=bottom-small><img src="{{ site.url }}/images/CV/computer2.png" alt="Computer Skills" width="80" height="80"></p>
+    <p align="left">&#8226 I use <strong>R</strong> and <strong>Python</strong> for fast prototyping and use <strong>C++</strong> to implement high-performance features and projects.</p>
+    <p align="left">&#8226 I believe software engineering methods like Design Patterns and Unit Test are important to robust and efficient software development.</p>
+    <p align="left">&#8226 I am also actively following domain knowledge in bioinformatics and nature language processing.</p>
+    
+    
+    
+    {{ content }}
+    </div><!-- /.article-wrap -->
+    {% if site.disqus_shortname and page.comments %}
+      <section id="disqus_thread"></section><!-- /#disqus_thread -->
+    {% endif %}
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}          
+
+</body>
+</html>
