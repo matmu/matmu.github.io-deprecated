@@ -14,25 +14,19 @@ owner:
   #twitter: griffanVI
   #linkedin: griffan
   #google_scholar: VCBBx24AAAAJ
-  #google_plus: 113718226018314522413
   github: matmu
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-96554740-2
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: Curriculum
-    url: cv/
+    url: /cv/
   - title: Publications
-    url: publications/
+    url: /publications/
   - title: Projects
-    url: projects/
+    url: /projects/
   - title: Blog
-    url: blog/
+    url: /blog/
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
