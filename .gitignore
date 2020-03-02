@@ -2,4 +2,5 @@ _site
 .idea/*
 .DS_Store
 .jekyll-cache
-
+vendor
+.tweet-cache

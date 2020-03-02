@@ -1,43 +1,40 @@
-title:            Matthias Munz site
-description:      Welcome to my site.
+title:            Matthias Munz's site
+
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              //matmu.github.io
-disqus_shortname: matmu
 
 # Owner/author information
 owner:
   name:           Matthias Munz
-  avatar:         portraitMM.png
-  bio:            "Bioinformatician / Data Scientist"
+  avatar:         portrait_quadr.png
+  bio:            "Bioinformatician / Data Scientist. Programmer. Big data expert. Problem solver. Creator. Autodidact. Travel lover"
   email:          m.munz@uni-luebeck.de
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  #twitter: griffanVI
-  #linkedin: griffan
-  #google_scholar: VCBBx24AAAAJ
-  github: matmu
+  twitter:        _MatthiasMunz
+  linkedin:       matthias-munz
+  google_scholar: YqZW19IAAAAJ
+  github:         matmu
+  stackoverflow:  1150325
 
 # Links to include in top navigation
 # For external links add external: true
 links:
+  - title: About
+    url: /about/
   - title: Curriculum
     url: /cv/
   - title: Publications
     url: /publications/
-  - title: Projects
-    url: /projects/
-  - title: Blog
-    url: /blog/
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    
+timezone:
 future:      true
 #pygments:    true
 highlighter: rouge
 markdown:    kramdown
 kramdown:
   extensions: ["strikethrough"]
-  
+
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
@@ -47,18 +44,17 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+  syntax_highlighter_opts:
+    line_numbers:
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: class
 
 include: [".htaccess", "_pages"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
-collections: 
+collections:
     projects:
         output: true
         permalink: /:collection/:path/
@@ -70,15 +66,3 @@ defaults:
       type: pages
     values:
       layout: single
-  # _projects
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
-
-
-
-

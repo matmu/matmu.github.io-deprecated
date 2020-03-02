@@ -5,50 +5,17 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 {% include _head.html %}
+<style>
+  .bottom-three {
+     margin-bottom: 1.5cm;
+   }
+  .bottom-small {
+     margin-bottom: 1cm;
+   }
+</style>
 </head>
 
 <body class="page">
-<style>
-    /*********************************
-     The list of publication items
-     *********************************/
-/* The list of items */
-.biblist { }
-
-/* The item */
-.biblist li { }
-
-/* You can define custom styles for plstyle field here. */
-
-
-/*************************************
- The box that contain BibTeX code
- *************************************/
-div.noshow { display: none; }
-div.bibtex {
-	margin-right: 0%;
-	margin-top: 1.2em;
-	margin-bottom: 1em;
-	border: 1px solid silver;
-	padding: 0em 1em;
-	background: #ffffee;
-}
-div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;}</style>
-<script type="text/javascript">
-    <!--
-    // Toggle Display of BibTeX
-    function toggleBibtex(articleid) {
-        var bib = document.getElementById('bib_'+articleid);
-        if (bib) {
-            if(bib.className.indexOf('bibtex') != -1) {
-                bib.className.indexOf('noshow') == -1?bib.className = 'bibtex noshow':bib.className = 'bibtex';
-            }
-        } else {
-            return;
-        }
-    }
--->
-    </script>
 
 {% include _browser-upgrade.html %}
 
@@ -70,7 +37,6 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
   {% endif %}
   </div><!-- /.image-wrap -->
 {% endif %}
-
 <div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
@@ -78,44 +44,33 @@ div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; padding: 0em 0em;
   <article>
     <h1>{{ page.title }}</h1>
     <div class="article-wrap">
-      {{ content }}
-
-
-<h4 style="margin-bottom:0px;padding-top:10px;">2019 Publications</h4>
-
-{% include pub2019.html %}
-
-<h4 style="margin-bottom:0px;padding-top:10px;">2018 Publications</h4>
-
-{% include pub2018.html %}
-
-<h4 style="margin-bottom:0px;padding-top:10px;">2017 Publications</h4>
-
-{% include pub2017.html %}
-
-<h4 style="margin-bottom:0px;padding-top:10px;">2016 Publications</h4>
-
-{% include pub2016.html %}
-
-<h4 style="margin-bottom:0px;padding-top:10px;">2015 Publications</h4>
-
-{% include pub2015.html %}
-
-
-
-    </div><!-- /.article-wrap -->
-    {% if site.disqus_shortname and page.comments %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    {% endif %}
+    {{ content }}
+			{% for y in site.data.publications %}
+				<h2>{{ y.year }}</h2>
+				{% for p in y.publications %}
+					{% if forloop.first %}<ul>{% endif %}
+					<li>{{ p.authors }}
+						{% if y.year != "Under review" %} ({{ y.year }}){% endif %}
+						{% if p.title %} {{ p.title }}{% endif %}
+						{% if p.journal %} <i>{{ p.journal }}</i>{% endif %}
+						{% if p.biorxiv and p.biorxiv_link%} <a href="https://www.biorxiv.org/content/{{ p.biorxiv_link }}" target="_blank">bioRxiv: {{ p.biorxiv }}</a>{% endif %}
+						{% if p.pmid %} <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ p.pmid }}" target="_blank">PMID: {{ p.pmid }}</a>{% endif %}
+						{% if p.doi %} <a href="https://doi.org/{{ p.doi }}" target="_blank">doi: {{ p.doi }}</a>{% endif %}
+					</li>
+					{% if forloop.last %}</ul>{% endif %}
+				{% endfor %}
+			{% endfor %}
+		</div><!-- /.article-wrap -->
   </article>
 </div><!-- /#index -->
+
 <div class="footer-wrap">
   <footer>
     {% include _footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% include _scripts.html %}          
+{% include _scripts.html %}
 
 </body>
 </html>

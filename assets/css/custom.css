@@ -1,0 +1,15 @@
+
+
+li:not(:last-child)
+{
+    padding-bottom: 10px;
+}
+
+
+.cv-pics
+{
+    margin: 0 auto;
+    display: block;
+    max-width:100px;
+    height:auto;
+}
