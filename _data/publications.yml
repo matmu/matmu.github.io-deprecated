@@ -11,10 +11,16 @@
       title: "A personal and population-based Egyptian genome reference."
       biorxiv: 681254
       biorxiv_link: 10.1101/681254v1.article-info
-    - authors: "Nashef A<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
-      title: "Translation of mouse model to human gives insights into periodontitis etiology"
     - authors: "Wienbergen et al."
       title: "New Technologies for Intensive Prevention Programs After Myocardial Infarction – Rationale and Design of the NET-IPP-Study"
+
+- year: 2020
+  publications:
+    - authors: "Nashef A<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
+      title: "Translation of mouse model to human gives insights into periodontitis etiology."
+      journal: "Sci Rep."
+      pmid: 32184465
+      doi: "10.1038/s41598-020-61819-0"
 
 - year: 2019
   publications:
