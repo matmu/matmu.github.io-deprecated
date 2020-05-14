@@ -1,8 +1,6 @@
 
 - year: "Under review"
   publications:
-    - authors: "Zheng Y et al."
-      title: "Mendelian randomization analysis does not support causal associations of birth weight with hypertension risk and blood pressure in adulthood"
     - authors: "<b>Munz M</b> et al."
       title: "Qtlizer: comprehensive QTL annotation of GWAS results."
       biorxiv: 495903
@@ -25,6 +23,11 @@
       journal: "Sci Rep."
       pmid: 32184465
       doi: "10.1038/s41598-020-61819-0"
+    - authors: "Zheng Y et al."
+      title: "Mendelian randomization analysis does not support causal associations of birth weight with hypertension risk and blood pressure in adulthood."
+      journal: Eur J Epidemiol.
+      pmid: 32383070
+      authors: "10.1007/s10654-020-00638-z"
 
 - year: 2019
   publications:
