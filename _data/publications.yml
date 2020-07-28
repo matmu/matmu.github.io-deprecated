@@ -21,7 +21,7 @@
       biorxiv_link: 10.1101/681254v1.article-info
     - authors: "Wienbergen et al."
       title: "New Technologies for Intensive Prevention Programs After Myocardial Infarction – Rationale and Design of the NET-IPP-Study."
-      journal: "Clin Res Cardiol."
+      journal: "Clin Res Cardiol"
     - authors: "Nashef A<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "Translation of mouse model to human gives insights into periodontitis etiology."
       journal: "Sci Rep."
@@ -29,7 +29,7 @@
       doi: "10.1038/s41598-020-61819-0"
     - authors: "Zheng Y et al."
       title: "Mendelian randomization analysis does not support causal associations of birth weight with hypertension risk and blood pressure in adulthood."
-      journal: Eur J Epidemiol.
+      journal: "Eur J Epidemiol."
       pmid: 32383070
       doi: "10.1007/s10654-020-00638-z"
 
