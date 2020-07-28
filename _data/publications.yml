@@ -9,15 +9,19 @@
       title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
       biorxiv: 518290
       biorxiv_link: 10.1101/518290
-    - authors: "Wohlers I, Kuenstner A, <b>Munz M</b> et al."
-      title: "A personal and population-based Egyptian genome reference."
-      biorxiv: 681254
-      biorxiv_link: 10.1101/681254v1.article-info
-    - authors: "Wienbergen et al."
-      title: "New Technologies for Intensive Prevention Programs After Myocardial Infarction – Rationale and Design of the NET-IPP-Study"
+    - authors: "Freitag-Wolf S et al."
+      title: "Sex specific genetic factors affect periodontitis risk in Caucasian women"
 
 - year: 2020
   publications:
+    - authors: "Wohlers I, Kuenstner A, <b>Munz M</b> et al."
+      title: "A personal and population-based Egyptian genome reference."
+      journal: "Nat Commun."
+      biorxiv: 681254
+      biorxiv_link: 10.1101/681254v1.article-info
+    - authors: "Wienbergen et al."
+      title: "New Technologies for Intensive Prevention Programs After Myocardial Infarction – Rationale and Design of the NET-IPP-Study."
+      journal: "Clin Res Cardiol."
     - authors: "Nashef A<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "Translation of mouse model to human gives insights into periodontitis etiology."
       journal: "Sci Rep."
