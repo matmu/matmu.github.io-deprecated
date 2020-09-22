@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Welcome to matthiasmunz.de
+title: Welcome!
 image:
   feature: mountain.png
 permalink: /
