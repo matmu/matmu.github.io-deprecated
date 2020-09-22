@@ -1,10 +1,17 @@
 
 - year: "Under review"
   publications:
+    
+    - authors: "Graham S et al."
+      title: "The power of genetically diverse individuals in genome-wide association studies of blood lipid levels"
+    - authors: "<b>Munz M</b><sup>*</sup>, Nashef A<sup>*</sup> et al."
+      title: "In silico candidate variant and gene identification using inbred mouse strains."
+      biorxiv: 282731
+      biorxiv_link: 10.1101/2020.09.04.282731
     - authors: "<b>Munz M</b> et al."
       title: "Qtlizer: comprehensive QTL annotation of GWAS results."
       biorxiv: 495903
-      biorxiv_link: 10.1101/495903v2.abstract
+      biorxiv_link: 10.1101/495903
     - authors: "Moser S et al."
       title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
       biorxiv: 518290
@@ -15,13 +22,17 @@
 - year: 2020
   publications:
     - authors: "Wohlers I, Kuenstner A, <b>Munz M</b> et al."
-      title: "A personal and population-based Egyptian genome reference."
+      title: "An integrated personal and population-based Egyptian genome reference."
       journal: "Nat Commun."
       biorxiv: 681254
-      biorxiv_link: 10.1101/681254v1.article-info
+      biorxiv_link: 10.1101/681254
+      pmid: 32948767
+      doi: "10.1038/s41467-020-17964-1"
     - authors: "Wienbergen et al."
       title: "New Technologies for Intensive Prevention Programs After Myocardial Infarction – Rationale and Design of the NET-IPP-Study."
       journal: "Clin Res Cardiol"
+      doi: "10.1007/s00392-020-01695-w"
+      pmid: 32734504
     - authors: "Nashef A<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "Translation of mouse model to human gives insights into periodontitis etiology."
       journal: "Sci Rep."
