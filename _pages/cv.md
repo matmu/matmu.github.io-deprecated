@@ -6,8 +6,8 @@ title: My CV
 
 
 ![Professional Experience](/images/CV/business.png){:class="img-responsive cv-pics"}
-
-* I am currently doing my Postdoc in Bioinformatics at the <b>University of Lübeck</b> (Medical Systems Biology Group), Germany
+* I am working as Bioinformatics Scientist Biomarker Research at <b>Roche Diagnostics GmbH</b>, business area Centralised and Point of Care Solutions (CPS), in Penzberg, Germany
+* I did Postdoc in Bioinformatics at the <b>University of Lübeck</b> (Medical Systems Biology Group), Germany
 * During my PhD, I worked as Research Assistant at the <b>Charité - University Medicine Berlin</b> (Genetics of Oral Inflammatory Diseases Group), Germany and at the <b>University of Lübeck</b> (Institute for Cardiogenetics)
 * I worked as Cancer Bioinformatician at the <b>Berlin Institute of Health</b>, Germany
 
