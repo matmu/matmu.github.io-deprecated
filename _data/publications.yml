@@ -1,31 +1,31 @@
 
 - year: "Under review"
   publications:
-    
     - authors: "Graham S et al."
       title: "The power of genetically diverse individuals in genome-wide association studies of blood lipid levels"
     - authors: "<b>Munz M</b><sup>*</sup>, Khodaygani M<sup>*</sup> et al."
       title: "In silico candidate variant and gene identification using inbred mouse strains."
       biorxiv: 282731
-      biorxiv_link: 10.1101/2020.09.04.282731
-    - authors: "<b>Munz M</b> et al."
-      title: "Qtlizer: comprehensive QTL annotation of GWAS results."
-      biorxiv: 495903
-      biorxiv_link: 10.1101/495903
+      biorxiv_link: https://doi.org/10.1101/2020.09.04.282731
     - authors: "Moser S et al."
       title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
       biorxiv: 518290
-      biorxiv_link: 10.1101/518290
+      biorxiv_link: https://doi.org/10.1101/518290
     - authors: "Freitag-Wolf S et al."
       title: "Sex specific genetic factors affect periodontitis risk in Caucasian women"
 
 - year: 2020
   publications:
+    - authors: "<b>Munz M</b> et al."
+      title: "Qtlizer: comprehensive QTL annotation of GWAS results."
+      journal: "Sci Rep."
+      biorxiv: 495903
+      biorxiv_link: https://doi.org/10.1101/495903
     - authors: "Wohlers I, Kuenstner A, <b>Munz M</b> et al."
       title: "An integrated personal and population-based Egyptian genome reference."
       journal: "Nat Commun."
       biorxiv: 681254
-      biorxiv_link: 10.1101/681254
+      biorxiv_link: https://doi.org/10.1101/681254
       pmid: 32948767
       doi: "10.1038/s41467-020-17964-1"
     - authors: "Wienbergen et al."
