@@ -3,16 +3,20 @@
   publications:
     - authors: "Graham S et al."
       title: "The power of genetically diverse individuals in genome-wide association studies of blood lipid levels"
-    - authors: "<b>Munz M</b><sup>*</sup>, Khodaygani M<sup>*</sup> et al."
-      title: "In silico candidate variant and gene identification using inbred mouse strains."
-      biorxiv: 282731
-      biorxiv_link: https://doi.org/10.1101/2020.09.04.282731
     - authors: "Moser S et al."
       title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
       biorxiv: 518290
       biorxiv_link: https://doi.org/10.1101/518290
     - authors: "Freitag-Wolf S et al."
       title: "Sex specific genetic factors affect periodontitis risk in Caucasian women"
+
+- year: 2021
+  publications:
+    - authors: "<b>Munz M</b><sup>*</sup>, Khodaygani M<sup>*</sup> et al."
+      title: "In silico candidate variant and gene identification using inbred mouse strains."
+      journal: "PeerJ."
+      biorxiv: 282731
+      biorxiv_link: https://doi.org/10.1101/2020.09.04.282731
 
 - year: 2020
   publications:
