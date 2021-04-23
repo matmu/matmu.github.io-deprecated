@@ -3,10 +3,6 @@
   publications:
     - authors: "Graham S et al."
       title: "The power of genetically diverse individuals in genome-wide association studies of blood lipid levels"
-    - authors: "Moser S et al."
-      title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
-      biorxiv: 518290
-      biorxiv_link: https://doi.org/10.1101/518290
     - authors: "Freitag-Wolf S et al."
       title: "Sex-specific genetic factors affect the risk of severe early-onset periodontitis in Europeans"
     - authors: "Berutti R<sup>*</sup>, Gola D<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
@@ -23,6 +19,12 @@
       biorxiv_link: https://doi.org/10.1101/2020.09.04.282731
       doi: "10.7717/peerj.11017"
       pmid: 33763305
+    - authors: "Zeng L et al."
+      title: "Cis-epistasis at the LPA locus and risk of cardiovascular diseases."
+      biorxiv: 518290
+      biorxiv_link: https://doi.org/10.1101/518290
+      doi: 10.1093/cvr/cvab136
+      pmid: 33878186
       
 - year: 2020
   publications:
