@@ -1,8 +1,6 @@
 
 - year: "Under review"
   publications:
-    - authors: "Ramzan S et al."
-      title: "A novel missense mutation in TNNI3K causes recessively inherited cardiac conduction disease in a consanguineous Pakistani family"
     - authors: "Graham S et al."
       title: "The power of genetic diversity in genome-wide association studies of lipids"
     - authors: "Freitag-Wolf S et al."
@@ -14,6 +12,9 @@
       
 - year: 2021
   publications:
+    - authors: "Ramzan S et al."
+      title: "A novel missense mutation in TNNI3K causes recessively inherited cardiac conduction disease in a consanguineous Pakistani family"
+      journal: "Genes"
     - authors: "Salviano-Silva A et al."
       title: "Genetic association and differential expression of HLA Complex Group lncRNAs in pemphigus."
       journal: "J Autoimmun."
