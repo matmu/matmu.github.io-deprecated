@@ -3,8 +3,6 @@
   publications:
     - authors: "Graham S et al."
       title: "The power of genetic diversity in genome-wide association studies of lipids"
-    - authors: "Freitag-Wolf S et al."
-      title: "Sex-specific genetic factors affect the risk of severe early-onset periodontitis in Europeans"
     - authors: "Berutti R<sup>*</sup>, Gola D<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "DZHKomics: whole-genome sequencing of German population controls"
     - authors: "Aragam KG et al."
@@ -12,6 +10,10 @@
       
 - year: 2021
   publications:
+    - authors: "Freitag-Wolf S, <b>Munz M</b> et al."
+      title: "Sex-specific genetic factors affect the risk of severe early-onset periodontitis in Europeans."
+      journal: "J Clin Periodontol."
+      doi: "10.1111/jcpe.13538"
     - authors: "Ramzan S et al."
       title: "A novel missense mutation in TNNI3K causes recessively inherited cardiac conduction disease in a consanguineous Pakistani family."
       journal: "Genes"
