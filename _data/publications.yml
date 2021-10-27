@@ -1,17 +1,22 @@
 
 - year: "Under review"
   publications:
-    - authors: "Graham S et al."
-      title: "The power of genetic diversity in genome-wide association studies of lipids"
     - authors: "Berutti R<sup>*</sup>, Gola D<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "DZHKomics: whole-genome sequencing of German population controls"
     - authors: "Aragam KG et al."
       title: "Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants"
+    - authors: "Ramdas S et al."
+      title: "A multi-layer functional genomic analysis to understand noncoding genetic variation in lipids"
+    - authors: "Kanoni S et al."
+      title: "Implicating genes, pleiotropy and sexual dimorphism at blood lipid loci through trans-ancestry meta-analysis"
       
 - year: 2021
   publications:
+    - authors: "Graham S et al."
+      title: "The power of genetic diversity in genome-wide association studies of lipids."
+      journal: "Nature"
     - authors: "Freitag-Wolf S, <b>Munz M</b> et al."
-      title: "Sex-specific genetic factors affect the risk of severe early-onset periodontitis in Europeans."
+      title: "Sex‐specific genetic factors affect the risk of early‐onset periodontitis."
       journal: "J Clin Periodontol."
       doi: "10.1111/jcpe.13538"
       pmid: 34409643
