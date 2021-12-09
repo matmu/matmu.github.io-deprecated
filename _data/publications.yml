@@ -14,7 +14,8 @@
   publications:
     - authors: "Graham SE et al."
       title: "The power of genetic diversity in genome-wide association studies of lipids."
-      journal: "Nature"
+      journal: "Nature."
+      doi: "10.1038/s41586-021-04064-3"
     - authors: "Freitag-Wolf S, <b>Munz M</b> et al."
       title: "Sex‐specific genetic factors affect the risk of early‐onset periodontitis."
       journal: "J Clin Periodontol."
