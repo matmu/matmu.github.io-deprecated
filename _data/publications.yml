@@ -1,6 +1,10 @@
 
 - year: "Under review"
   publications:
+    - authors: "Ramdas S et al."
+      title: "A multi-layer functional genomic analysis to understand noncoding genetic variation in lipids."
+      biorxiv: 470215
+      biorxiv_link: https://doi.org/10.1101/2021.12.07.470215
     - authors: "Berutti R<sup>*</sup>, Gola D<sup>*</sup>, <b>Munz M</b><sup>*</sup> et al."
       title: "DZHKomics: whole-genome sequencing of German population controls"
     - authors: "Aragam KG et al."
