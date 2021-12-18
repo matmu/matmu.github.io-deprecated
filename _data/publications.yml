@@ -1,6 +1,10 @@
 
 - year: "Under review"
   publications:
+    - authors: "Kanoni S et al."
+      title: "Implicating genes, pleiotropy and sexual dimorphism at blood lipid loci through multi-ancestry meta-analysis."
+      medrxiv: 21267852
+      medrxiv_link: "https://doi.org/10.1101/2021.12.15.21267852"
     - authors: "Ramdas S et al."
       title: "A multi-layer functional genomic analysis to understand noncoding genetic variation in lipids."
       biorxiv: 470215
