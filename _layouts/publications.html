@@ -54,6 +54,7 @@
 						{% if p.title %} {{ p.title }}{% endif %}
 						{% if p.journal %} <i>{{ p.journal }}</i>{% endif %}
 						{% if p.biorxiv and p.biorxiv_link%} <a href="{{ p.biorxiv_link }}" target="_blank">bioRxiv: {{ p.biorxiv }}</a>{% endif %}
+						{% if p.medrxiv and p.medrxiv_link%} <a href="{{ p.medrxiv_link }}" target="_blank">medRxiv: {{ p.medrxiv }}</a>{% endif %}
 						{% if p.pmid %} <a href="https://www.ncbi.nlm.nih.gov/pubmed/{{ p.pmid }}" target="_blank">PMID: {{ p.pmid }}</a>{% endif %}
 						{% if p.doi %} <a href="https://doi.org/{{ p.doi }}" target="_blank">doi: {{ p.doi }}</a>{% endif %}
 					</li>
