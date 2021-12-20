@@ -1,6 +1,8 @@
 
 - year: "Under review"
   publications:
+    - authors: "Yengo L et al."
+      title: "A Saturated Map of Common Genetic Variants Associated with Human Height from 5.4 Million Individuals of Diverse Ancestries"
     - authors: "Kanoni S et al."
       title: "Implicating genes, pleiotropy and sexual dimorphism at blood lipid loci through multi-ancestry meta-analysis."
       medrxiv: 21267852
