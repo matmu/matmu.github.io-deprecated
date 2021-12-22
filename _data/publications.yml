@@ -15,8 +15,8 @@
       title: "DZHKomics: whole-genome sequencing of German population controls"
     - authors: "Aragam KG et al."
       title: "Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants"
-    - authors: "Ramdas S et al."
-      title: "A multi-layer functional genomic analysis to understand noncoding genetic variation in lipids"
+      medrxiv: 21257377
+      medrxiv_link: "https://doi.org/10.1101/2021.05.24.21257377"
 
 - year: 2021
   publications:
