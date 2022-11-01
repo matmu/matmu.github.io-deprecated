@@ -1,8 +1,6 @@
 
 - year: "Under review"
   publications:
-    - authors: "Yengo L et al."
-      title: "A Saturated Map of Common Genetic Variants Associated with Human Height from 5.4 Million Individuals of Diverse Ancestries"
     - authors: "Kanoni S et al."
       title: "Implicating genes, pleiotropy and sexual dimorphism at blood lipid loci through multi-ancestry meta-analysis."
       medrxiv: 21267852
@@ -14,6 +12,11 @@
     
 - year: 2022
   publications:
+    - authors: "Yengo L et al."
+      title: "A saturated map of common genetic variants associated with human height."
+      doi: "10.1038/s41586-022-05275-y"
+      pmid: 36224396
+      journal: "Nature."
     - authors: "Aragam KG et al."
       title: "Discovery and systematic characterization of risk variants and genes for coronary artery disease in over a million participants."
       medrxiv: 21257377
