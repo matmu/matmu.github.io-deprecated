@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /multi-pitch/
+permalink: /multi_pitch/
 title: My multi-pitch climbing routes
 ---
 
