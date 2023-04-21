@@ -1,33 +1,40 @@
 - year: 2023
   routes:
     - name: Athene
-      wall: 
+      wall: Parete San Paolo
       country: Italy
       region: Arco/Lago di Garda
       partner: GP
       date: 24.03.2023
-      comment:
+      comment: 
+      ref_thecrag: https://www.thecrag.com/de/klettern/italy/parete-san-paolo/route/501985221 
+      UIAA: 7+ (6+ obl.)
     - name: Archangelo
-      wall: 
+      wall: Parete San Paolo
       country: Italy
       region: Arco/Lago di Garda
-      partner: "GP"
+      partner: GP
       date: 25.03.2023
       comment:
+      ref_bergsteigen: 7+
+      UIAA: 
     - name: Weg durch das Gesicht
-      wall: 
+      wall: Parete San Paolo
       country: Italy
       region: Arco/Lago di Garda
       partner: GP
       date: 26.03.2023
       comment:
+      UIAA: 8-
     - name: Wegrama
       wall: Benediktenwand
       country: Austria
       region: Karwendel/Innsbruck
       partner: IK
       date: 18.03.2023
-      comment:
+      comment: Stepped out to route Spätlese before 2nd last pitch and skipped the hardest part.
+      ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/wegrama-martinswand/
+      UIAA: 7+ (6+ obl.)
       
 - year: 2022
   routes:
@@ -38,6 +45,7 @@
       partner: IK
       date: 24.07.2022
       comment:
+      UIAA: 7-
     - name: Kochelmonster
       wall: 
       country: Germany
@@ -46,12 +54,14 @@
       date: 06.07.2022
       comment:
     - name: Selene
-      wall: 
+      wall: Parete San Paolo
       country: Italy
       region: Arco/Lago di Garda
       partner: IK
       date: 13.05.2022
       comment:
+      ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/selene-parete-san-paolo-arco/
+      uiaa: 6
      - name: La Luna Argentea
       wall: Cima Alle Coste
       country: Italy
