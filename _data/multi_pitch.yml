@@ -1,4 +1,4 @@
-- year: "2023"
+- year: 2023
   routes:
     - name: Athene
       wall: 
@@ -7,7 +7,7 @@
       partner: GP
       date: 24.03.2023
       comment:
-    - name: "Archangelo"
+    - name: Archangelo
       wall: 
       country: Italy
       region: Arco/Lago di Garda
@@ -22,14 +22,14 @@
       date: 26.03.2023
       comment:
     - name: Wegrama
-      wall: "Benediktenwand"
+      wall: Benediktenwand
       country: Austria
-      region: Innsbruck
-      partner: "IK"
+      region: Karwendel/Innsbruck
+      partner: IK
       date: 18.03.2023
       comment:
       
-- year: "2022"
+- year: 2022
   routes:
     - name: Geduldsfaden
       wall: Glaswand
@@ -61,3 +61,40 @@
       UIAA: 6 (5 obl.)
       comment:
       ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/la-luna-argentea-cima-alle-coste/
+     - name: Maxl's Krone
+      wall: Benediktenwand
+      country: Austria
+      region: Karwendel/Innsbruck
+      partner: IK
+      date: 27.03.2022
+      UIAA: 7- (6- obl.)
+      comment:
+      ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/maxls-krone-martinswand/
+     - name: Maxl's Gamsrevier
+      wall: Benediktenwand
+      country: Austria
+      region: Karwendel/Innsbruck
+      partner: IK
+      date: 27.03.2022
+      UIAA: 7- (6- obl.)
+      comment:
+      ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/maxls-gamsrevier-martinswand/
+     
+- year: 2021
+  routes:
+    - name: Sunset Boulevard
+      wall: 
+      country: Austria
+      region: Heiming/Inntal
+      partner: IK
+      date: 30.10.2021
+      comment:
+    - name: Fahrt ins Blaue
+      wall: Leonhardstein
+      country: Germany
+      region: Bavarian Prealps
+      partner: IK
+      date: 21.08.2021
+      comment:
+      UIAA: 7 (6 obl.)
+      ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/fahrt-ins-blaue-leonhardstein/
