@@ -89,6 +89,14 @@
       UIAA: 7- (6- obl.)
       comment:
       ref_bergsteigen: https://www.bergsteigen.com/touren/klettern/maxls-gamsrevier-martinswand/
+     - name: Südwestkante
+      wall: Großer Illing
+      country: Austria
+      region: Karwendel/Innsbruck
+      partner: PB
+      date: 20.03.2022
+      UIAA: 5
+      comment:
      
 - year: 2021
   routes:
