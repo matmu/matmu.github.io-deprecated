@@ -10,7 +10,7 @@ permalink: /about/
 
 In summer 2020, Matthias Munz left acadamia to pursue a position as bioinformatics scientist in biomarker research at Roche in Penzberg.
 
-[zeit-article]: /pdfs/DIE-ZEIT-43-2018-18.10.2018.pdf
+[zeit-article]: {{ site.baseurl }}/pdfs/DIE-ZEIT-43-2018-18.10.2018.pdf
 [genehopper]: http://genehopper.de/
 [qtlizer]: http://genehopper.de/qtlizer
 [r-bioc]: https://www.bioconductor.org/packages/devel/bioc/html/Qtlizer.html
