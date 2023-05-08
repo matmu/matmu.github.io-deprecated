@@ -1,7 +1,8 @@
 title:            Matthias Munz's site
 
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              //matmu.github.io
+url:              https://matmu.github.io
+baseurl:          /matmu-deprecated
 
 # Owner/author information
 owner:
